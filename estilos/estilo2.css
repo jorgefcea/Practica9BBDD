@@ -1,0 +1,143 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../imagenes/fondo.jpg);
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#contenedor1 {
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 17px rgba(255, 255, 255, 0.5);
+    position: relative;
+    background-color: #C4D8F2;
+    border: 2px solid white;
+}
+
+#titulo-container {
+    background-color: #507C6E;
+    border-radius: 20px 20px 0 0;
+    padding: 20px;
+    color: white;
+    border-bottom: 2px solid white;
+    margin-left: -12px;
+    margin-right: -12px;
+}
+
+button {
+    border-radius: 10px;
+    border: 1px solid #507C6E;
+    background-color: #507C6E; 
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 12px 45px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: transform 80ms ease-in;
+    cursor: pointer;
+    position: relative;
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+button:focus {
+    outline: none;
+}
+
+button.ghost {
+    background-color: transparent;
+    border-color: #FFFFFF;
+}
+
+#boton_logout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+h2 {
+    text-align: center;
+    font-weight: bold;
+}
+
+#formulario {
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#fila1 {
+    display: flex;
+}
+
+#nombre {
+    padding-right: 30px;
+}
+
+#genero {
+    padding-right: 30px;
+}
+
+input {
+    width: 450px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #507C6E;
+}
+
+#tablaTitulo tr th {
+    background-color: #507C6E;
+}
+
+#tabla th {
+    border: 2px solid white;
+}
+
+#tabla tr td {
+    border: 2px solid white;
+}
+
+#tabla {
+    box-shadow: 5px 5px 17px rgba(255, 255, 255, 0.5);
+    width: 100%;
+    max-width: 900px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#botonNoEstilo {
+    border-radius: 10px;
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 12px 45px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: transform 80ms ease-in;
+    cursor: pointer;
+    position: relative;
+}
+
